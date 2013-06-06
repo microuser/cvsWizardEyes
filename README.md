@@ -7,7 +7,8 @@ Checkout, Checkin, Login, Update, Commit, Add, Insert
 
 CVSWizardEyes is a command line (terminal) tool, capable of operation through SSH (Secure Shell).
 Designed and tested on Linux Mint 15 (olivia), a derivative of Ubuntu (raring), a derivative of Debian.
-This program detects and installs its own dependency programs through apt-get: cvs, tree, dialog.
+CVSWizardEyes detects and installs its own dependency programs through apt-get: cvs, tree, dialog. 
+CVSWizardEyes assumes no previous cvs configuration, and runs providing its own $CVSROOT and login operation. 
 
 
 
