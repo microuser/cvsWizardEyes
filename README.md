@@ -21,6 +21,13 @@ Installation Instructions:
   sudo chown root:root /usr/bin/cvsWizardEyes
   
   
+  .
+  
+  
+  .
+  
+  
+  
 The MIT License (MIT)
 
 Copyright (c) 2013 microuser pauleagle@gmail.com
