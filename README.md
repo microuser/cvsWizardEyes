@@ -16,7 +16,7 @@ CVSWizardEyes assumes no previous cvs configuration, and runs providing its own 
 
 Installation Instructions:
 
-  sudo mv ~/Downloads/cvsWizard.sh /usr/bin/cvsWizardEyes
+  sudo mv ~/Downloads/cvsWizardEyes.sh /usr/bin/cvsWizardEyes
   
   sudo chmod +x /usr/bin/cvsWizardEyes
   
