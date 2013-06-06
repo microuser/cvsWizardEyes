@@ -13,17 +13,10 @@ This program detects and installs its own dependency programs through apt-get: c
 
 Installation Instructions:
 
-//Create the working directory:
-
-  mkdir ~/cvs
-
-//Copy the script
-
-  sudo mv ~/Downloads/cvsWizard.sh /usr/share/
+  sudo mv ~/Downloads/cvsWizard.sh /usr/bin/cvsWizardEyes
   
-  sudo chmod +x /usr/bin/cvsWizard.sh
+  sudo chmod +x /usr/bin/cvsWizardEyes
   
-  sudo chown root:root /usr/bin/cvsWizard.sh
+  sudo chown root:root /usr/bin/cvsWizardEyes
   
-  sudo ln -s /usr/bin/cvsWizard.sh /usr/bin/cvsWizard
   
