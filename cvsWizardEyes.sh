@@ -235,7 +235,7 @@ echo ===========================================================================
 #Get the line and three lines after when not matched to "Status:"
 #Remove the text matching the variable $cvsServerBase
 
-cvs status 2>/dev/null | grep -v "Locally Modified" | grep -v " Needs Patch" | grep -v "Up-to-date" | grep -A3 "File:" | sed "s^$cvsServerBase^^g" 
+cvs status 2>/dev/null | grep -v "Locally Modified" | grep -v " Needs Patch" | grep -v "Up-to-date" | grep -A3 "Status:" | sed "s^$cvsServerBase^^g" 
 #| grep "Repository revision" | sed 's/Repository revision:\t//g' 
 fi
 
