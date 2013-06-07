@@ -29,7 +29,17 @@ commandComment="-m"
 
 setProjectName (){
 #vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-exec 3>&1
+#A developer note about the use of dialog.  It requires the use of Csh (sea shell) output redirection. 
+#Refer on why this is a bad idea. http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/
+# 0 - stdin
+# 1 - std out
+# 2 - std error
+# 3-9 custom stds
+#the command: "exec 3>&1" pipes all custom stds to stdout. The ampersand is comparable to the ">" command,
+where instead of piping to a file, it pipes to the indicate stdout 
+#the command: "3>&-" means that custom stds are closed for writing.
+
+exec 3>&1 
 projectName=$(dialog --inputbox "Project/Module Name in $cvsServerBase" 10 70 "$projectName" 2>&1 1>&3)
 exec 3>&-
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
