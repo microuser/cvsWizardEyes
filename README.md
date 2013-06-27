@@ -4,15 +4,17 @@ CVSWizardEyes
 CVS (Concurrent Versioning System) Wizard Eyes is a dialog box driven wizard 
 which prompts the user for information required for the CVS commands:
 Checkout, Checkin/Commit, Login, Update, , Add, Insert.
-
-- [x] Checkout
-- [x] Checkin
-- [x] Login
-- [x] Update
-- [x] Commit
-- [ ] Add
-- [ ] Insert
-
+- [ ] Add - Tell CVS of a new file or directory to track
+- [x] Checkout - download all the files within this directory. 
+- [x] Commit - upload files that have changed within this directory
+- [x] Update - Destroy all local files and download all new.
+- [ ] History - Query information about a user's checkout status
+- [ ] Insert - Recursivly update and add new files or directories if required.
+- [ ] rdiff - Specify two revisions for a diff
+- [ ] release - Tell CVS to stop tracking
+- [ ] remove - delete from the repository
+- [ ] status - status about revision
+- [ ] tag - add a tag to a checked out version
 
 CVSWizardEyes is a command line (terminal) tool, capable of operation through SSH (Secure Shell).
 Designed and tested on Linux Mint 15 (olivia), a derivative of Ubuntu (raring), a derivative of Debian.
