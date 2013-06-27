@@ -9,7 +9,7 @@ Checkout, Checkin/Commit, Login, Update, , Add, Insert.
 - [x] Commit - upload files that have changed within this directory
 - [x] Update - Destroy all local files and download all new.
 - [ ] History - Query information about a user's checkout status
-- [ ] Insert - Recursivly update and add new files or directories if required.
+- [x] Insert - Recursivly update and add new files or directories if required.
 - [ ] rdiff - Specify two revisions for a diff
 - [ ] release - Tell CVS to stop tracking
 - [ ] remove - delete from the repository
