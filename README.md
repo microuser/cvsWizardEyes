@@ -15,6 +15,7 @@ Checkout, Checkin/Commit, Login, Update, , Add, Insert.
 - [ ] remove - delete from the repository
 - [ ] status - status about revision
 - [ ] tag - add a tag to a checked out version
+- [ ] Backing out a Bad Commit
 
 CVSWizardEyes is a command line (terminal) tool, capable of operation through SSH (Secure Shell).
 Designed and tested on Linux Mint 15 (olivia), a derivative of Ubuntu (raring), a derivative of Debian.
