@@ -3,14 +3,22 @@ CVSWizardEyes
 
 CVS (Concurrent Versioning System) Wizard Eyes is a dialog box driven wizard 
 which prompts the user for information required for the CVS commands:
-Checkout, Checkin, Login, Update, Commit, Add, Insert.
+Checkout, Checkin/Commit, Login, Update, , Add, Insert.
+
+- [x] Checkout
+- [x] Checkin
+- [x] Login
+- [x] Update
+- [x] Commit
+- [ ] Add
+- [ ] Insert
+
 
 CVSWizardEyes is a command line (terminal) tool, capable of operation through SSH (Secure Shell).
 Designed and tested on Linux Mint 15 (olivia), a derivative of Ubuntu (raring), a derivative of Debian.
 CVSWizardEyes detects and installs its own dependency programs through apt-get: cvs, tree, dialog. 
 CVSWizardEyes assumes no previous cvs configuration, and runs providing its own $CVSROOT and login operation. 
 
-.
 
 Installation Instructions:
 
@@ -20,15 +28,18 @@ Installation Instructions:
   
   sudo chown root:root /usr/bin/cvsWizardEyes
   
+Useage Instructions: 
+
+  cvsWizardEyes
   
-  .
+  
   
 
   
   
 The MIT License (MIT)
 
-Copyright (c) 2013 microuser pauleagle@gmail.com
+Copyright (c) 2013 microuser.github.com pauleagle@gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
